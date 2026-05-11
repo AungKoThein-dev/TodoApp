@@ -17,5 +17,5 @@ app.UseSwaggerUI();
 app.MapControllers();
 
 app.MapGet("/hello", () => "Hello Docker!");
-
+app.Urls.Add("http://0.0.0.0:8080");
 app.Run();
