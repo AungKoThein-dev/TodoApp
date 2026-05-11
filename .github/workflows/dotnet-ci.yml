@@ -1,4 +1,4 @@
-name: .NET CI
+name: .NET CI + Docker
 
 on:
   push:
@@ -16,19 +16,28 @@ jobs:
 
     steps:
 
+    # Checkout repository
     - name: Checkout code
       uses: actions/checkout@v4
 
+    # Install .NET
     - name: Setup .NET
       uses: actions/setup-dotnet@v4
       with:
-        dotnet-version: '8.0.x'
+        dotnet-version: '10.0.x'
 
+    # Restore packages
     - name: Restore dependencies
       run: dotnet restore
 
+    # Build solution
     - name: Build solution
       run: dotnet build --no-restore --configuration Release
 
+    # Run tests
     - name: Run tests
       run: dotnet test --no-build --configuration Release
+
+    # Build Docker image
+    - name: Build Docker image
+      run: docker build -t todoapi-image -f TodoApi/Dockerfile .

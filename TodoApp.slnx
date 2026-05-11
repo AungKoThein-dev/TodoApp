@@ -1,5 +1,0 @@
-<Solution>
-  <Project Path="Todo.Application/Todo.Application.csproj" />
-  <Project Path="Todo.Domain/Todo.Domain.csproj" />
-  <Project Path="TodoApi/TodoApi.csproj" />
-</Solution>
