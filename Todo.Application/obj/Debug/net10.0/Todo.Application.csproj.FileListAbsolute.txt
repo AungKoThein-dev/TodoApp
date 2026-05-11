@@ -1,0 +1,15 @@
+E:\MyWorkPlace\TodoApp\Todo.Application\bin\Debug\net10.0\Todo.Application.deps.json
+E:\MyWorkPlace\TodoApp\Todo.Application\bin\Debug\net10.0\Todo.Application.dll
+E:\MyWorkPlace\TodoApp\Todo.Application\bin\Debug\net10.0\Todo.Application.pdb
+E:\MyWorkPlace\TodoApp\Todo.Application\bin\Debug\net10.0\Todo.Domain.dll
+E:\MyWorkPlace\TodoApp\Todo.Application\bin\Debug\net10.0\Todo.Domain.pdb
+E:\MyWorkPlace\TodoApp\Todo.Application\obj\Debug\net10.0\Todo.Application.csproj.AssemblyReference.cache
+E:\MyWorkPlace\TodoApp\Todo.Application\obj\Debug\net10.0\Todo.Application.GeneratedMSBuildEditorConfig.editorconfig
+E:\MyWorkPlace\TodoApp\Todo.Application\obj\Debug\net10.0\Todo.Application.AssemblyInfoInputs.cache
+E:\MyWorkPlace\TodoApp\Todo.Application\obj\Debug\net10.0\Todo.Application.AssemblyInfo.cs
+E:\MyWorkPlace\TodoApp\Todo.Application\obj\Debug\net10.0\Todo.Application.csproj.CoreCompileInputs.cache
+E:\MyWorkPlace\TodoApp\Todo.Application\obj\Debug\net10.0\Todo.App.468A55F7.Up2Date
+E:\MyWorkPlace\TodoApp\Todo.Application\obj\Debug\net10.0\Todo.Application.dll
+E:\MyWorkPlace\TodoApp\Todo.Application\obj\Debug\net10.0\refint\Todo.Application.dll
+E:\MyWorkPlace\TodoApp\Todo.Application\obj\Debug\net10.0\Todo.Application.pdb
+E:\MyWorkPlace\TodoApp\Todo.Application\obj\Debug\net10.0\ref\Todo.Application.dll
