@@ -9,6 +9,7 @@ COPY TodoApp.sln ./
 COPY TodoApi/TodoApi.csproj TodoApi/
 COPY Todo.Application/Todo.Application.csproj Todo.Application/
 COPY Todo.Domain/Todo.Domain.csproj Todo.Domain/
+COPY Todo.Infrastructure/Todo.Infrastructure.csproj Todo.Infrastructure/
 
 # Restore dependencies
 RUN dotnet restore

@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using Todo.Application.DTOs;
 using Todo.Application.Interfaces;
+using Todo.Domain.Entities;
 
 namespace TodoApi.Controllers;
 
@@ -16,22 +16,32 @@ public class TodoController : ControllerBase
     }
 
     [HttpGet]
-    public IActionResult GetAll()
+    public IActionResult Get()
     {
         return Ok(_service.GetAll());
     }
 
     [HttpPost]
-    public IActionResult Create(CreateTodoRequest request)
+    public IActionResult Add(string title)
     {
-        var item = _service.Add(request.Title);
+        return Ok(_service.Add(title));
+    }
+
+    [HttpGet("{id}")]
+    public IActionResult Get(int id)
+    {
+        var item = _service.Get(id);
+        if (item == null)
+        {
+            return NotFound();
+        }
         return Ok(item);
     }
 
-    [HttpDelete("{id}")]
-    public IActionResult Delete(int id)
+    [HttpPut]
+    public IActionResult Update(TodoItem item)
     {
-        _service.Delete(id);
+        _service.Update(item);
         return NoContent();
     }
 }

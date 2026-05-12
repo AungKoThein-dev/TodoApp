@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Todo.Domain", "Todo.Domain\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TodoApi", "TodoApi\TodoApi.csproj", "{19B5BD9E-D268-4D44-B09C-B5041CDACE76}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Todo.Infrastructure", "Todo.Infrastructure\Todo.Infrastructure.csproj", "{ADB975DA-352B-45C0-B164-D9476C1318C0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -55,6 +57,18 @@ Global
 		{19B5BD9E-D268-4D44-B09C-B5041CDACE76}.Release|x64.Build.0 = Release|Any CPU
 		{19B5BD9E-D268-4D44-B09C-B5041CDACE76}.Release|x86.ActiveCfg = Release|Any CPU
 		{19B5BD9E-D268-4D44-B09C-B5041CDACE76}.Release|x86.Build.0 = Release|Any CPU
+		{ADB975DA-352B-45C0-B164-D9476C1318C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADB975DA-352B-45C0-B164-D9476C1318C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADB975DA-352B-45C0-B164-D9476C1318C0}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{ADB975DA-352B-45C0-B164-D9476C1318C0}.Debug|x64.Build.0 = Debug|Any CPU
+		{ADB975DA-352B-45C0-B164-D9476C1318C0}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{ADB975DA-352B-45C0-B164-D9476C1318C0}.Debug|x86.Build.0 = Debug|Any CPU
+		{ADB975DA-352B-45C0-B164-D9476C1318C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADB975DA-352B-45C0-B164-D9476C1318C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ADB975DA-352B-45C0-B164-D9476C1318C0}.Release|x64.ActiveCfg = Release|Any CPU
+		{ADB975DA-352B-45C0-B164-D9476C1318C0}.Release|x64.Build.0 = Release|Any CPU
+		{ADB975DA-352B-45C0-B164-D9476C1318C0}.Release|x86.ActiveCfg = Release|Any CPU
+		{ADB975DA-352B-45C0-B164-D9476C1318C0}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -8,4 +8,5 @@ public interface ITodoService
     TodoItem? Get(int id);
     TodoItem Add(string title);
     void Delete(int id);
+    void Update(TodoItem item);
 }
